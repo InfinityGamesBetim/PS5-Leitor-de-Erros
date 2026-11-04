@@ -8,7 +8,7 @@ Programa de bancada que lê o **log de erros do EMC** do PlayStation 5 e diz, em
 português, **o que o código significa, onde focar o reparo e quais as causas mais
 prováveis**. Lê direto do **dump da NOR** ou pelo console, via **UART**.
 
-> Para assistência técnica. Funciona sem instalar nada, com a base de códigos sempre atualizável.
+> Para assistência técnica. Funciona sem instalar nada, com a base de códigos atualizada sozinha pela internet.
 
 <p align="center">
   <a href="../../releases/latest"><b>⬇️ Baixar o programa (Windows)</b></a>
@@ -54,6 +54,7 @@ RX marcados.
   até o que exige mexer no chip.
 - **Defeito nesta placa:** o defeito específico daquele código para o modelo escolhido,
   com as linhas de tensão a verificar.
+- **Ver na placa:** a peça marcada na foto, com o esquema da peça a um clique.
 - **Onde apareceu:** em quais registros o código foi gravado, com a temperatura do SoC
   quando o registro traz.
 
@@ -62,7 +63,34 @@ RX marcados.
   <img src="imagens/erro_ssd.png" alt="Erro de APU com causas prováveis" width="49%">
 </p>
 
-### Modelos de placa
+---
+
+## Ver na placa
+
+Em cada código, o botão **Ver na placa** abre a foto da placa, dos dois lados, com as
+peças ligadas ao erro marcadas em cima do componente.
+
+- **Vermelho:** o próprio código aponta para a peça. Nos erros de memória, a marca cai
+  nos chips GDDR6 que o código acusou.
+- **Âmbar:** peça do mesmo circuito (controlador, regulador, fusível), vale medir.
+- **Clique na peça** para abrir a página do esquema elétrico onde ela aparece. O esquema
+  já vem dentro do programa.
+
+<p align="center">
+  <img src="imagens/mapa_memoria.png" alt="Erro de memória marcado na placa" width="49%">
+  <img src="imagens/mapa_vrm.png" alt="Fases do VRM marcadas na placa" width="49%">
+</p>
+
+<p align="center">
+  <img src="imagens/mapa_ssd.png" alt="SSD marcado no lado A da placa" width="62%">
+</p>
+
+As fotos e as posições são da PS5 FAT EDM-010/020. Nos outros modelos a mesma foto serve
+de referência, e o programa avisa que a posição das peças pode mudar.
+
+---
+
+## Modelos de placa
 
 | Modelo |
 |---|
