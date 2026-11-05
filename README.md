@@ -132,3 +132,11 @@ em **Mais informações → Executar assim mesmo**.
   qual peça queimou. Meça antes de aquecer ou trocar chip.
 - Códigos que não estão na base aparecem como "não catalogado" ou "pouco documentado".
 - A origem dos dados e as licenças estão no botão **Fontes e licença**, dentro do programa.
+
+---
+
+<p align="center">
+  <sub><b>Apoie o projeto via Pix</b></sub><br>
+  <img src="imagens/pix.png" alt="QR Code Pix" width="120"><br>
+  <sub>Chave aleatória:<br><code>8e0c215f-eba5-4356-8fe8-03354bed3522</code></sub>
+</p>
