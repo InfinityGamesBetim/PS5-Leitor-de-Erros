@@ -137,6 +137,7 @@ em **Mais informações → Executar assim mesmo**.
 
 <p align="center">
   <sub><b>Apoie o projeto via Pix</b></sub><br>
+<p align="center">
   <img src="imagens/pix.png" alt="QR Code Pix" width="120"><br>
   <sub>Chave aleatória:<br><code>8e0c215f-eba5-4356-8fe8-03354bed3522</code></sub>
 </p>
