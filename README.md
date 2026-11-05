@@ -67,8 +67,8 @@ RX marcados.
 
 ## Ver na placa
 
-Em cada código, o botão **Ver na placa** abre a foto da placa, dos dois lados, com as
-peças ligadas ao erro marcadas em cima do componente.
+Em cada código, o botão **Ver na placa** abre a foto da placa, **os dois lados juntos**, com
+as peças ligadas ao erro marcadas em cima do componente.
 
 - **Vermelho:** o próprio código aponta para a peça. Nos erros de memória, a marca cai
   nos chips GDDR6 que o código acusou.
@@ -77,12 +77,15 @@ peças ligadas ao erro marcadas em cima do componente.
   já vem dentro do programa.
 
 <p align="center">
-  <img src="imagens/mapa_memoria.png" alt="Erro de memória marcado na placa" width="49%">
-  <img src="imagens/mapa_vrm.png" alt="Fases do VRM marcadas na placa" width="49%">
+  <img src="imagens/mapa_memoria.png" alt="Erro de memória marcado na placa" width="100%">
 </p>
 
 <p align="center">
-  <img src="imagens/mapa_ssd.png" alt="SSD marcado no lado A da placa" width="62%">
+  <img src="imagens/mapa_ssd.png" alt="SSD marcado na placa" width="100%">
+</p>
+
+<p align="center">
+  <img src="imagens/mapa_vrm.png" alt="Fases do VRM marcadas na placa" width="100%">
 </p>
 
 As fotos e as posições são da PS5 FAT EDM-010/020. Nos outros modelos a mesma foto serve
