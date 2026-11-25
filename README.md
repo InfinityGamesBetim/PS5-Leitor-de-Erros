@@ -8,7 +8,7 @@ Programa de bancada que lê o **log de erros do EMC** do PlayStation 5 e diz, em
 português, **o que o código significa, onde focar o reparo e quais as causas mais
 prováveis**. Lê direto do **dump da NOR** ou pelo console, via **UART**.
 
-> Para assistência técnica. Funciona sem instalar nada, com a base de códigos atualizada sozinha pela internet.
+> Para assistência técnica. Funciona sem instalar nada, com a base de códigos atualizada sozinha pela internet. A partir da 1.6.0 o programa também avisa quando há versão nova e se atualiza com um clique ("Atualizar para vX", no alto da janela, e Ajuda > Verificar atualização).
 
 <p align="center">
   <a href="../../releases/latest"><b>⬇️ Baixar o programa (Windows)</b></a>
@@ -29,9 +29,11 @@ Com o console desligado e o cabo de força ligado, conecte GND, TX e RX a um ada
 USB-serial e leia o log direto da placa, a 115200 baud.
 
 - **Procurar** acha as portas COM.
-- **Ler erros** puxa o log do EMC.
-- **Monitor** acompanha a saída ao vivo.
+- **Ler erros** puxa o log do EMC e agrupa os códigos iguais, do mais frequente para o menos.
+- **Ler em lista** mostra cada registro na ordem em que o aparelho gravou, sem agrupar.
 - **Apagar log** limpa o log do EMC depois do reparo.
+
+Os menus **Arquivo**, **Console** e **Ajuda**, no alto da janela, repetem essas ações.
 
 O botão **Ver diagrama UART desta placa** abre a foto da placa com os pontos GND, TX e
 RX marcados.
